@@ -5,13 +5,16 @@
 }
 
 body {
-
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(background.png);
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
     max-height: 100vh;
-    background-size: 150px 100px;
+    
 }
 
 
